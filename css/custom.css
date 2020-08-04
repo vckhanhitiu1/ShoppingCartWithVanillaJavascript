@@ -19,14 +19,16 @@ header {
     }
 }
 .remove {
-    background-color: red;
+    border: 1px solid red;
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: red;
 }
-
+.remove:hover{
+    background-color: pink;
+    color: red;
+}
 ul {
     list-style: none;
 }
